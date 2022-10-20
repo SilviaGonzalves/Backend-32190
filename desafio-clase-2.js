@@ -21,11 +21,13 @@ class Usuario {
         this.libros.push(lib)
     }
     getBookNames(){
-        this.libros.forEach(element => {
-            console.log(`${element.nombre}`)
-        });
-
-
+        // this.libros.forEach(element => {
+        //     console.log(`${element.nombre}`)
+        // });
+        const newarray = this.libros.map((el) =>  el.nombre)
+        return console.log(newarray)
+             
+         
     }
 }
 
