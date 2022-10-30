@@ -25,8 +25,11 @@ class Usuario {
         //     console.log(`${element.nombre}`)
         // });
         const newarray = this.libros.map((el) =>  el.nombre)
-        return console.log(newarray)
-             
+
+        // return console.log(newarray)
+
+        // cambiar el return para usar clausure
+        return newarray     
          
     }
 }
@@ -58,4 +61,10 @@ usuario.countMascotas()
 usuario.addBook({nombre : "Libro 5", autor : "Autor 5"})
 console.log(usuario)
 
-usuario.getBookNames()
+// usar estas 2 lineas para que se ejecute getBoolNames con clausure
+const veo = usuario.getBookNames()
+console.log(veo)
+
+
+// usado sin clausure (hago console.log dentro del método)
+ //usuario.getBookNames()
