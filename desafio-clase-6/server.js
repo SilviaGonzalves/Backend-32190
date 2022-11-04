@@ -118,11 +118,13 @@ const registro = new Contenedor ("./productos.txt")
  registro.save({"title" : "title 7", "price" : 700, "thumbnail" :"./accesorio4.jpg"})
 
 
+app.get("/", (req, res) => {
+    res.send("Bienvenidos al proyecto de Silvia Gonzalves Fariña")
+})
 
 
 app.get("/productos", async ( req, res ) => {
     const todosLosProductos = await registro.getAll()
-   
     try {
         res.send(todosLosProductos)
     }
