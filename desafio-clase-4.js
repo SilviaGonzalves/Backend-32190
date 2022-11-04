@@ -122,10 +122,10 @@ const registro = new Contenedor ("./productos.txt")
 
 
 
- registro.getById(2)
+ //registro.getById(2)
 
- registro.getAll()
+ //registro.getAll()
 
- registro.deleteById(3)
+// registro.deleteById(3)
 
- registro.deleteAll()
+// registro.deleteAll()
