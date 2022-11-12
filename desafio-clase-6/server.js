@@ -133,6 +133,7 @@ app.get("/productos", async ( req, res ) => {
     }
 })
 
+
 app.get("/productosRandom", async (req, res) => {
     const numeroAleatorio = parseInt((Math.random() * 7) + 1)
     const registroAleatorio = await registro.getById(numeroAleatorio)

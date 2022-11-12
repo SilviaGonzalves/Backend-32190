@@ -1,0 +1,23 @@
+{
+  "name": "backend-32190",
+  "version": "1.0.0",
+  "description": "",
+  "main": "desafio-clase-2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilviaGonzalves/Backend-32190.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilviaGonzalves/Backend-32190/issues"
+  },
+  "homepage": "https://github.com/SilviaGonzalves/Backend-32190#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
