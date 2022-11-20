@@ -7,11 +7,11 @@ const productos = []
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
-// app.use('/static', express.static(__dirname + '/public'))
-// app.use('/static', express.static('/public'))
+// app.use('/static', express.static(__dirname + './public'))
+// app.use('/static', express.static('public'))
 app.use( express.static('public'))
 // y en la url pongo solo localhost:8080
-// app.use('/', express.static('/public'))
+// app.use('/', express.static('./public'))
 
 const routerProductos = new Router()
 
